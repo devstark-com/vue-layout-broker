@@ -1,6 +1,8 @@
 <template>
   <component :is="currentLayout" :class="layoutClasses">
+    <slot name="before-page"></slot>
     <router-view :class="pageWrapperClasses"></router-view>
+    <slot name="after-page"></slot>
   </component>
 </template>
 <script>

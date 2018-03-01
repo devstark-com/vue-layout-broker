@@ -1,7 +1,7 @@
 {
   "name": "vue-layout-broker",
   "description": "Component provides the way to implement dynamic layout in a Vue app",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "Saymon",
     "email": "saymon.biz@gmail.com"
