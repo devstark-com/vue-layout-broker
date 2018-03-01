@@ -46,7 +46,7 @@ export default {
      * Return layout component name for current route
      * @return {string}
      */
-    currentLayout() {
+    currentLayout () {
       return this.layouts[this.current]
     }
   }
