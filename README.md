@@ -9,6 +9,7 @@ Component provides the way to implement dynamic layout in a Vue app
 
 - [Installation](#installation)
 - [Usage](#usage)
+- [Interface](#interface)
 - [Example](#example)
 
 # Installation
@@ -76,6 +77,21 @@ export default {
 }
 </script>
 ```
+
+# Interface
+
+## Props
+
+| Props              | Required | Type            | Default            | Description  |
+| ------------------ | -------- | --------------- | ------------------ | -------------|
+| layouts            | false    | Object          | `{}`               | Layouts components list |
+| current            | false    | String          | `null`             | Current layout component name |
+| layoutClasses      | false    | [Object, Array] | `['layout']`       | Layout classes to be bound in array or object notation |
+| pageWrapperClasses | false    | [Object, Array] | `['page-wrapper']` | List of classes to be bound to `<router-view>` in array or object notation |
+
+## Slots
+
+Component provides two named slots `before-page` and `after-page` to inject content before or after `<router-view>`. Both slots have no any content by default.
 
 # Example
 
