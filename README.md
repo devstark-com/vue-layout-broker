@@ -86,7 +86,7 @@ export default {
 | ------------------ | -------- | --------------- | ------------------ | -------------|
 | layouts            | false    | Object          | `{}`               | Layouts components list |
 | current            | false    | String          | `null`             | Current layout component name |
-| layoutClasses      | false    | [Object, Array] | `['layout']`       | Layout classes to be bound in array or object notation |
+| layoutClasses      | false    | [Object, Array] | `['layout']`       | Layout classes to be bound in [array](https://vuejs.org/v2/guide/class-and-style.html#Array-Syntax) or [object](https://vuejs.org/v2/guide/class-and-style.html#Object-Syntax) notation |
 | pageWrapperClasses | false    | [Object, Array] | `['page-wrapper']` | List of classes to be bound to `<router-view>` in array or object notation |
 
 ## Slots
@@ -95,7 +95,7 @@ Component provides two named slots `before-page` and `after-page` to inject cont
 
 # Example
 
-[Working example](https://codesandbox.io/s/84x24pkn49)
+[Working example](https://codesandbox.io/s/42m1lrj6l7)
 
 ---
 
